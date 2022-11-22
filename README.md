@@ -1,6 +1,6 @@
-# shiny-tree
+# tree-pro
 Tree Data Structure and methods to efficiently handle complex hierarchical structures of JS Objects.
-The shiny-tree lets you create a Dynamic Tree from a list of Objects. Then, you can do the basic tree operations, such as BFS, DFS, node presence check, and add child node.
+The tree-pro lets you create a Dynamic Tree from a list of Objects. Then, you can do the basic tree operations, such as BFS, DFS, node presence check, and add child node.
 Also, there are following methods that let you efficiently traverse, filter, and fetch desired set of nodes from the tree.
 
 <h2>filter</h2>
