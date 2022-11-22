@@ -88,7 +88,7 @@ export function filter(tree, searchAttribute, attributeValue) {
   return tree.reduce(getNodes, []);
 }
 
-// The following method returns the children tree of the given Node.
+// The following method returns the children nodes of the given Node.
 // tree = the root tree, searchAttribute = JS Object key, attributeValue = value of JS Object Key
 export function filterChildren(tree, searchAttribute, attributeValue) {
   const getNodes = (result, object) => {
@@ -107,7 +107,7 @@ export function filterChildren(tree, searchAttribute, attributeValue) {
   return tree.reduce(getNodes, []);
 }
 
-// The following method returns the metadata of immediate children from the given Node.
+// The following method returns the metadata of immediate children (in the form of a list) from the given Node.
 export const fetchChildComponents = (targetNode) => {
   if (targetNode) {
     return targetNode
@@ -118,7 +118,7 @@ export const fetchChildComponents = (targetNode) => {
   return [];
 };
 
-// The following method returns the parent tree of the given Node.
+// The following method returns the parent node of the given Node.
 // tree = the root tree, searchAttribute = JS Object key, attributeValue = value of JS Object Key
 export function filterParent(tree, searchAttribute, attributeValue) {
   const getNodes = (result, object) => {
